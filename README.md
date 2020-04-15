@@ -1,7 +1,10 @@
 Usage:
+========
 
 simg2img system.img system.img.ext4
+
 mkdir system
+
 ext2rd system.img.ext4 ./:system
 
 
