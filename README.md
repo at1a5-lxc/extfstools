@@ -1,3 +1,15 @@
+compile
+=======
+
+sudo apt-get install g++ libboost1.58-dev
+
+./augogen.sh
+
+./configure CPPFLAGS=std=c++11 LDFLAGS="-static"
+
+make
+
+
 Usage:
 ========
 
